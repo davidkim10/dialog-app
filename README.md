@@ -1,6 +1,6 @@
 ![Screenshots](./public/img/logo-banner.jpg)
 
-Dialog is a private online community that allows users to publish their ideas, thoughts, and stories.
+### Dialog is a private online community that allows users to publish their ideas, thoughts, and stories.
 
 This project utilizes several tools and technologies including, but not limited to:
 
