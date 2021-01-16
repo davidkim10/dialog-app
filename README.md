@@ -17,7 +17,7 @@ Project inspired by Traversy Media.
 ![Screenshots](./public/screenshots/screenshot-04.png)
 
 ## 🚀 Quick start
-[View Live Demo](https://dialog-project.herokuapp.com/)
+Want to download this project? Get started below or [view live demo here](https://dialog-project.herokuapp.com/)
 
 1.  **Project Setup**
 
