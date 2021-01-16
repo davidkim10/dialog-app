@@ -1,5 +1,3 @@
-# Dialog App
-
 ![Screenshots](./public/img/logo-banner.jpg)
 
 Dialog is a private online community that allows users to publish their ideas, thoughts, and stories.
