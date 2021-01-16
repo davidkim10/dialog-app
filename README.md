@@ -7,7 +7,7 @@ Node, MongoDB Atlas, Mongoose, Passport, Handlebars, Google O-Auth, HTML, CSS, J
 
 Project inspired by Traversy Media.
 
-[View Live Example](https://dialog-project.herokuapp.com/)
+[View Live Demo](https://dialog-project.herokuapp.com/)
 
 ## 📷 Screenshots
 
@@ -17,7 +17,7 @@ Project inspired by Traversy Media.
 ![Screenshots](./public/screenshots/screenshot-04.png)
 
 ## 🚀 Quick start
-[View Live Example Here](https://dialog-project.herokuapp.com/)
+[View Live Demo](https://dialog-project.herokuapp.com/)
 
 1.  **Project Setup**
 
