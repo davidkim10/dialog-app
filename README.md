@@ -48,7 +48,7 @@ Project inspired by Traversy Media.
 3.  **Run Project**
 
     ```shell
-    npm start
+    npm start or npm run dev (for development environment)
     ```
 
     View app on `http://localhost:3000`
