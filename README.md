@@ -2,7 +2,7 @@
 
 A Node JS project inspired by Traversy Media. Dialog is a private online community that allows users to publish their ideas, thoughts, and stories. This project utilizes MongoDB Atlas and Google user authentication.
 
-[View Live Example](https://simple-score.herokuapp.com/)
+[View Live Example](https://dialog-project.herokuapp.com/)
 
 ## 🚀 Quick start
 
