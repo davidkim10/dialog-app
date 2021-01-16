@@ -17,6 +17,7 @@ Project inspired by Traversy Media.
 ![Screenshots](./public/screenshots/screenshot-04.png)
 
 ## 🚀 Quick start
+[View Live Example Here](https://dialog-project.herokuapp.com/)
 
 1.  **Project Setup**
 
@@ -57,5 +58,3 @@ Project inspired by Traversy Media.
     ```
 
     View app on `http://localhost:3000` 
-    
-    [View Live Example](https://dialog-project.herokuapp.com/)
