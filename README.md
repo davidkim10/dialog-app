@@ -37,7 +37,7 @@ Want to download this project? Get started below or [view the live demo here](ht
     npm install
     ```
     
-2.  **Add an Config ENV File**
+2.  **Add a config ENV File**
     
     Add a config.env file to your project
     
