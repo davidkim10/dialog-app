@@ -28,7 +28,7 @@ Project inspired by Traversy Media.
     npm install
     ```
     
-2.  **Add Config ENV File**
+2.  **Add an Config ENV File**
     
     Add a config.env file to your project
     
