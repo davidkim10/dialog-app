@@ -56,4 +56,6 @@ Project inspired by Traversy Media.
     npm run dev
     ```
 
-    View app on `http://localhost:3000`
+    View app on `http://localhost:3000` 
+    
+    [View Live Example](https://dialog-project.herokuapp.com/)
