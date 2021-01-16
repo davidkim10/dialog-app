@@ -1,0 +1,31 @@
+<style>
+    @media screen and (max-width: 767px) {
+        .navbar-toggler {
+            border: none !important;
+            outline: 0 !important;
+        }
+        .navbar-collapse {
+            margin-top: 1rem;
+            padding-left: .75rem;
+        }
+    }
+</style>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4" style="background-color: #010127 !important">
+    <div class="d-flex flex-grow-1 justify-content-between">
+        <a class="navbar-brand" href="/">
+            <img src="/img/logo-banner.jpg" alt="" style="max-width: 160px;">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse flex-grow-1" id="myNavBar">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+            <li><a class="nav-link" href="/dashboard">Dashboard</a></li>
+             <li><a class="nav-link" href="/stories">Community</a></li>
+            <li><a class="nav-link" href="/auth/logout">Logout</a></li>
+        </ul>
+    </div>
+</nav>

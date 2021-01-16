@@ -1,0 +1,29 @@
+<h1>Stories by {{userData.displayName}}</h1>
+<p><em>Member since {{formatDate userData.createdAt 'MMMM YYYY'}}</em></p>
+{{!-- <p class="lead">View stories and posts created by {{userObject.firstName}}</p> --}}
+<div class="row mt-4">
+    <div class="col-sm-8">
+        {{#each stories}}
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <div class="author d-flex align-items-center justify-content-center">
+                    <img src="{{user.image}}" alt="profile image" style="max-width: 30px; margin-right: 5px; border-radius: 2em;">
+                    <a href="/stories/user/{{user._id}}">{{user.displayName}}</a>
+                </div>
+                <div class="card-header__actions">
+                    {{{editIcon user ../user _id}}}
+                </div>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">{{title}}</h3>
+                <p class="card-text">{{stripTags (truncate body 160)}}</p>
+                <div class="card-action center-align mt-4">
+                    <a href="/stories/{{_id}}" class="btn btn-sm btn-primary">View Story</a>
+                </div>
+            </div>
+        </div>
+        {{else}}
+        <p>Hmm... looks like our community members have nothing to share at this time. <br/>Want to share something? <a href="/stories/add">Create a story</a></p>
+        {{/each}}
+    </div>
+</div>

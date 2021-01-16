@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-sm-8">
+        <article class="article">
+            <div class="article-header d-flex align-items-center">
+                <h1>{{story.title}}</h1>
+                <span class="ml-3" style="font-size: 20px">{{{editIcon story.user user story._id false}}}</span>
+            </div>
+            <div class="article-meta">
+                <p class="author mb-0"><strong>Author:</strong> <a href="/stories/user/{{story.user._id}}">{{story.user.displayName}}</a></p>
+                <p class="date"><strong>Last Modified:</strong> {{formatDate date 'MMMM Do YYYY, h:mm:ss a'}}</p>
+            </div>
+            <div class="article-body">
+                {{{story.body}}}
+            </div>
+            <div class="article-footer mt-5">
+                <hr>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="author d-flex align-items-center justify-content-center">
+                        <img src="{{story.user.image}}" alt="profile image" style="max-width: 60px; margin-right: 12px; border-radius: 2em;">
+                        <div>
+                            <p class="mb-1">Did you enjoy this article?</p>
+                            <a href="/stories/user/{{story.user._id}}" style="display: block; font-size: .75em;">
+                                View more stories from {{story.user.displayName}}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>

@@ -1,0 +1,89 @@
+/* overrides */
+/* .btn-primary {
+  background-color: #5723aa;
+  border-color: #5723aa;
+  background-image: linear-gradient(to top right, #5723aa, #7949cf);
+}
+
+.btn-primary:hover {
+  background-color: #7949cf;
+  border-color: #7949cf;
+  background-image: linear-gradient(to bottom left, #5723aa, #7949cf);
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #5723aa;
+  border-color: #5723aa;
+} */
+
+body {
+  /* font-family: 'Noto Sans TC', sans-serif; */
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #e8e8e8;
+  letter-spacing: 0.5px;
+}
+
+/* 
+ **** DASHBOARD
+ */
+#dashboard_table td {
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+/* 
+ **** Buttons 
+ */
+.google-login-btn {
+  background-image: url('/img/google-btn-normal-2x.png');
+  background-size: contain;
+  display: block;
+  height: 46px;
+  width: 191px;
+  margin: 0 auto;
+  outline: 0;
+}
+
+.google-login-btn:hover {
+  opacity: 0.9;
+}
+
+.google-login-btn:active {
+  background-image: url('/img/google-btn-active-2x.png');
+}
+
+.google-login-btn:focus {
+  background-image: url('/img/google-btn-focus-2x.png');
+}
+
+.fixed-action-btn-wrapper {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 999;
+}
+
+.fixed-action-btn-wrapper .btn {
+  height: 60px;
+  width: 60px;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+}
+
+/* 
+ **** Modifiers
+ */
+
+.fa-small {
+  font-size: 14px !important;
+}
