@@ -4,10 +4,10 @@
     <div class="col-sm-8">
         {{#each stories}}
         <div class="card mb-4">
-            <div class="card-header d-flex justify-content-between align-items-center">
+            <div class="card-header d-flex justify-content-between align-items-center"  style="padding: .5rem 1.25rem;">
                 <div class="author d-flex align-items-center justify-content-center">
-                    <img src="{{user.image}}" alt="profile image" style="max-width: 30px; margin-right: 5px; border-radius: 2em;">
-                    <a href="/stories/user/{{user._id}}">{{user.displayName}}</a>
+                    <img src="{{user.image}}" alt="profile image" style="height: 25px; width: 25px; margin-right: 5px; border-radius: 2em;">
+                    <a style="color: #888;" href="/stories/user/{{user._id}}">{{user.displayName}}</a>
                 </div>
                 <div class="card-header__actions">
                     <span class="mr-2" style="color: #888;">
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="card-body">
-                <h3 class="card-title">{{title}}</h3>
+                <h5 class="card-title"><a href="/stories/{{_id}}">{{title}}</a></h5>
                 <p class="card-text">{{stripTags (truncate body 160)}}</p>
                 <div class="card-action center-align mt-4">
                     <a href="/stories/{{_id}}" class="btn btn-sm btn-primary">View Story</a>

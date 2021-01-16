@@ -8,18 +8,23 @@
     {{>_include_meta}}
 </head>
 <body>
-    {{>_header}}
-    {{>_add_btn}}
-    <div class="container">
-        {{{body}}}
-    </div>
+    <header>
+        {{>_header}}
+    </header>
+   
+   <main>
+        {{>_add_btn}}
+        <div class="container">
+            {{{body}}}
+        </div>
+   </main>
     
     {{>_include_js}}
     <script>
         if(document.querySelector('#body')){
             CKEDITOR.replace('body', {
                 //plugins: 'wysiwygarea, toolbar, basicstyles, link',
-                //format_tags: 'p;h1;h2;h3;h4;h5;h6;pre;address;div'
+                format_tags: 'p;h1;h2;h3;h4;h5;h6;pre;address;div'
             });
         }
     </script>

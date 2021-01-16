@@ -1,8 +1,20 @@
 # Dialog
 
-A Node JS project inspired by Traversy Media. Dialog is a private online community that allows users to publish their ideas, thoughts, and stories. This project utilizes MongoDB Atlas and Google user authentication.
+Dialog is a private online community that allows users to publish their ideas, thoughts, and stories.
+
+This project utilizes several tools and technologies including, but not limited to:
+Node, MongoDB Atlas, Mongoose, Passport, Handlebars, Google O-Auth, HTML, CSS, JavaScript, Bootstrap, and more.
+
+Project inspired by Traversy Media.
 
 [View Live Example](https://dialog-project.herokuapp.com/)
+
+## 📷 Screenshots
+
+![Screenshots](./public/screenshots/screenshot-01.png)
+![Screenshots](./public/screenshots/screenshot-02.png)
+![Screenshots](./public/screenshots/screenshot-03.png)
+![Screenshots](./public/screenshots/screenshot-04.png)
 
 ## 🚀 Quick start
 
@@ -23,18 +35,3 @@ A Node JS project inspired by Traversy Media. Dialog is a private online communi
     ```
 
     View app on `http://localhost:3000`
-
-## 📷 Screenshots
-
-![Screenshots](./public/screenshots/login.png)
-
-## ⁉️ Frequently Asked Questions
-
-- **What is ReactJS**
-
-  React is an open-source, front end, JavaScript library for building user interfaces or UI components.
-  <a href="https://reactjs.org/" target="_blank">Learn More</a>
-
-- **What is MongoDB?**
-
-  MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. <a href="https://www.mongodb.com/" target="_blank">Learn More</a>
