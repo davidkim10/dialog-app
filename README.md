@@ -3,7 +3,15 @@
 Dialog is a private online community that allows users to publish their ideas, thoughts, and stories.
 
 This project utilizes several tools and technologies including, but not limited to:
-Node, MongoDB Atlas, Mongoose, Passport, Handlebars, Google O-Auth, HTML, CSS, JavaScript, Bootstrap, and more.
+
+* Node JS
+* MongoDB
+* Google O-Auth
+* Express
+* Mongoose
+* Passport
+* Handlebars
+* Bootstrap
 
 Project inspired by Traversy Media.
 
