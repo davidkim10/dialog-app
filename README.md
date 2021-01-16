@@ -27,8 +27,25 @@ Project inspired by Traversy Media.
     cd dialog-app
     npm install
     ```
-
-2.  **Run Project**
+    
+2.  **Add Config ENV File**
+    
+    Add a config.env file to your project
+    
+    ```shell
+    cd dialog-app/config
+    touch config.env
+    ```
+    
+    Add the following variables
+    ```env
+    PORT = 3000
+    MONGO_URI = ENTER_YOUR_MONGO_URI
+    GOOGLE_CLIENT_ID = ENTER_YOUR_GOOGLE_CLIENT_ID
+    GOOGLE_CLIENT_SECRET = ENTER_YOUR_GOOGLE_CLIENT_SECRET
+    ```
+    
+3.  **Run Project**
 
     ```shell
     npm start
