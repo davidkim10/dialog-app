@@ -12,7 +12,7 @@ A Node JS project inspired by Traversy Media. Dialog is a private online communi
 
     ```shell
     git clone https://github.com/davidkim10/dialog-app
-    cd scorekeep
+    cd dialog-app
     npm install
     ```
 
